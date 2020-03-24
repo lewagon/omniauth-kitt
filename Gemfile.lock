@@ -1,0 +1,42 @@
+PATH
+  remote: .
+  specs:
+    omniauth-kitt (0.1.0)
+      omniauth-oauth2
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (1.0.0)
+      multipart-post (>= 1.2, < 3)
+    hashie (3.6.0)
+    jwt (2.2.1)
+    minitest (5.14.0)
+    multi_json (1.14.1)
+    multi_xml (0.6.0)
+    multipart-post (2.1.1)
+    oauth2 (1.4.4)
+      faraday (>= 0.8, < 2.0)
+      jwt (>= 1.0, < 3.0)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 3)
+    omniauth (1.9.0)
+      hashie (>= 3.4.6, < 3.7.0)
+      rack (>= 1.6.2, < 3)
+    omniauth-oauth2 (1.6.0)
+      oauth2 (~> 1.1)
+      omniauth (~> 1.9)
+    rack (2.2.2)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  omniauth-kitt!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
